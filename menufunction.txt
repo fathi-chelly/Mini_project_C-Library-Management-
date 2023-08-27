@@ -1,0 +1,11 @@
+-SetConsoleTextAttribute:
+     Changes the attribute for new characters that you write to the console, but doesn't 
+     affect  existing contents of the console.
+-The GetStdHandle():
+     Function gives us a mechanism for retrieving the standard input, STDIN, the Standard
+     Output, STDOUT, and the standard error handles, STDERR. The GetStdHandle() function takes a
+     single parameter that can be one of three values, STD_INPUT_HANDLE, STD_OUTPUT_HANDLE, and
+     STD_ERROR_HANDLE.     
+-COORD:
+     Defines the coordinates of a character cell in a console screen buffer. The origin of the
+     coordinate system (0,0) is at the top, left cell of the buffer.  
